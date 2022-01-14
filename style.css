@@ -1,0 +1,27 @@
+﻿nav a{
+    text-decoration: none;
+    color:black;
+    margin:3em;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+#horizontal-underline{
+    position: absolute;
+    width:0;
+    background-color: black;
+    top:0;
+    left:0;
+    height:2px;
+    transition:0.5s;
+}
+
+.gridBox {
+    width: 29px;
+    height: 29px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
